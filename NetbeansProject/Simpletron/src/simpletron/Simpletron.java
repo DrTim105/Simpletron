@@ -94,7 +94,7 @@ public class Simpletron
                             error = true;
                             throw new IllegalArgumentException(
                             "*** Value greater than range (-99999 - +99999) ***\n"
-                            + "*** TimpletrÖn execution abnormally terminated ***");
+                            + "*** Simpletron execution abnormally terminated ***");
                         }
                     break;
                     
@@ -106,7 +106,7 @@ public class Simpletron
                             error = true;
                             throw new IllegalArgumentException(
                             "*** Value greater than range (-99999 - +99999) ***\n"
-                            + "*** TimpletrÖn execution abnormally terminated ***");
+                            + "*** Simpletron execution abnormally terminated ***");
                         }
                     break;
                     
@@ -120,14 +120,14 @@ public class Simpletron
                             error = true;
                             throw new IllegalArgumentException(
                             "*** Value greater than range (-99999 - +99999) ***\n"
-                            + "*** TimpletrÖn execution abnormally terminated ***");
+                            + "*** Simpletron execution abnormally terminated ***");
                         }
                     }
                     catch(ArithmeticException e)    //Exception handling for attempts to divide by zero
                     {
                         System.out.println(e);
                         System.out.println("*** Attempt to divide by zero ***\n"
-                                + "*** TimpletrÖn execution abnormally terminated ***");
+                                + "*** Simpletron execution abnormally terminated ***");
                         error = true;
                     }
                     break;
@@ -140,7 +140,7 @@ public class Simpletron
                             error = true;
                             throw new IllegalArgumentException(
                             "*** Value greater than range (-99999 - +99999) ***\n"
-                            + "*** TimpletrÖn execution abnormally terminated ***");
+                            + "*** Simpletron execution abnormally terminated ***");
                         }
                     break;
                     
@@ -154,14 +154,14 @@ public class Simpletron
                             error = true;
                             throw new IllegalArgumentException(
                             "*** Value greater than range (-99999 - +99999) ***\n"
-                            + "*** TimpletrÖn execution abnormally terminated ***");
+                            + "*** Simpletron execution abnormally terminated ***");
                         }
                     }
                     catch(ArithmeticException e) //Exception handling for attempts to divide by zero
                     {
                         System.out.println(e);
                         System.out.println("*** Attempt to divide by zero ***\n"
-                                + "*** TimpletrÖn execution abnormally terminated ***");
+                                + "*** Simpletron execution abnormally terminated ***");
                         error = true;
                     }
                     break;
@@ -174,7 +174,7 @@ public class Simpletron
                             error = true;
                             throw new IllegalArgumentException(
                             "*** Value greater than range (-99999 - +99999) ***\n"
-                            + "*** TimpletrÖn execution abnormally terminated ***");
+                            + "*** Simpletron execution abnormally terminated ***");
                         }
                     break;
                     
@@ -194,7 +194,7 @@ public class Simpletron
                     break;
                     
                 case 43: //HALT
-                    System.out.println("*** TimpletrÖn execution terminated ***");
+                    System.out.println("*** Simpletron execution terminated ***");
                     error = true;
                     break;
                     
@@ -203,7 +203,7 @@ public class Simpletron
                     error = true;
                     throw new IllegalArgumentException(
                     "\n*** Attempt to execute invalid operation code ***\n"
-                    + "*** TimpletrÖn execution abnormally terminated ***\n");
+                    + "*** Simpletron execution abnormally terminated ***\n");
             }
             
             if (!error)
